@@ -17,7 +17,7 @@ COPY . .
 # RUN npx prisma generate
 
 # Expose the port your app will run on
-EXPOSE 4000
+EXPOSE 5000
 
 # (Optional) Run pending Prisma migrations before starting the app
 # RUN npx prisma migrate deploy

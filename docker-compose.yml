@@ -2,7 +2,7 @@ services:
   test_app:
     build: .
     ports:
-      - "4000:4000"
+      - "4000:5000"
     environment:
       - NODE_ENV=production
       - DATABASE_URL=postgresql://user:password@db:5432/mydatabase?schema=public
